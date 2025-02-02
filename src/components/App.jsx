@@ -1,9 +1,9 @@
-import { API_URL } from "../env";
-function App({ name }) {
+import { API_URL } from "../constants/env";
+function App() {
   return (
     <>
       <h2>
-        Hola {name} {API_URL}
+        Hola  {API_URL}
         <p>Este es el sitio en desarrollo</p>
       </h2>
     </>
